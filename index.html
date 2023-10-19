@@ -22,7 +22,7 @@
   <body>
     <!--Header-->
     <header>
-      <nav class="navbar navbar-expand-lg fixed-top">
+      <nav class="navbar navbar-expand-lg fixed-top bg-white">
         <!--logo-->
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
@@ -44,48 +44,64 @@
             />
           </div>
           <!--list-->
-            <ul class="navbar-nav mb-2 mb-lg-0">
-              <li class="nav-item d-none d-sm-block">
-                <a class="nav-link active" aria-current="page" href="#"
-                  ><i class="fas fa-bars my-c-darkgrey"></i
-                ></a>
-              </li>
-              <li class="nav-item d-none d-sm-block">
-                <a class="nav-link" href="#"
-                  ><i class="fas fa-circle-question my-c-darkgrey"></i
-                ></a>
-              </li>
-              <li class="nav-item d-none d-sm-block">
-                <a class="nav-link" href="#"
-                  ><i class="fa-solid fa-ellipsis-vertical my-c-darkgrey"></i
-                ></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"
-                  ><i class="fa-solid fa-bell my-c-yellow"></i
-                ></a>
-              </li>
-            </ul>
-          </div>
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item d-none d-sm-block">
+              <a class="nav-link active" aria-current="page" href="#"
+                ><i class="fas fa-bars my-c-darkgrey"></i
+              ></a>
+            </li>
+            <li class="nav-item d-none d-sm-block">
+              <a class="nav-link" href="#"
+                ><i class="fas fa-circle-question my-c-darkgrey"></i
+              ></a>
+            </li>
+            <li class="nav-item d-none d-sm-block">
+              <a class="nav-link" href="#"
+                ><i class="fa-solid fa-ellipsis-vertical my-c-darkgrey"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fa-solid fa-bell my-c-yellow"></i
+              ></a>
+            </li>
+          </ul>
         </div>
       </nav>
     </header>
     <!--main container-->
-    <div class="container-fluid">
-        <div class="row">
-            <!--sidebar-->
-            <div class="col-2">
-                <div class="my-home d-flex text-white">
-                    <i class="fa-solid fa-house"></i>
-                    <span class="">Home</span>
-                </div>
-                <div class="my-stat">
-                <div class="my-signal"></div>
-                </div>
-            </div>
-             <!--biggercol-->
-             <div class="col-10"></div>
+    <div class="container-fluid my-pt5">
+      <div class="row calc-min-height100">
+        <!--sidebar-->
+        <div class="col-2 my-sidebar d-flex flex-column">
+          <div
+            class="my-home d-flex text-white py-4 justify-content-start align-items-center"
+          >
+            <i class="fa-solid fa-house px-3 my-f-size1-3f"></i>
+            <span class="my-f-size1-1f">Home</span>
+          </div>
+          <div
+            class="my-stats d-flex text-white pb-4 justify-content-start align-items-center"
+          >
+            <i class="fa-solid fa-chart-simple px-3 my-f-size1-3f"></i>
+            <span class="my-f-size1-1f">Stats</span>
+          </div>
+          <div
+            class="my-signals d-flex text-white justify-content-start align-items-center"
+          >
+            <i class="fa-solid fa-signal px-3 my-f-size1-3f"></i>
+            <span class="my-f-size1-1f">Signals</span>
+          </div>
+          <div
+            class="my-settings d-flex text-white justify-content-start align-items-center "
+          >
+            <i class="fa-solid fa-gear px-3 my-f-size1-3f"></i>
+            <span class="my-f-size1-1f">Admin</span>
+          </div>
         </div>
+        <!--biggercol-->
+        <div class="col-10"></div>
+      </div>
     </div>
   </body>
 </html>

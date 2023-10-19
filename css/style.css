@@ -13,3 +13,44 @@
 .my-bg-grey{
     background-color: #e5e5e5;
 }
+
+/* padding */
+
+.my-pt5{
+    padding-top: 5rem;
+}
+
+/* font size */
+
+.my-f-size1-1f{
+    font-size: 1.1rem;
+}
+
+.my-f-size1-3f{
+    font-size: 1.3rem;
+}
+
+/* min height */
+
+.calc-min-height100{
+    min-height: calc(100vh - 5rem);
+}
+
+/* header navbar */
+
+:root {
+    --navbar-height: 5rem;
+}
+
+header > nav{
+    height: var(--navbar-height);
+}
+
+/* sidebar */
+
+.my-sidebar{
+    background-color: #051e34;
+    background-image: url(../img/sidebar-bg.png);
+}
+
+
