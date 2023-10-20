@@ -22,12 +22,13 @@
   <body>
     <!--Header-->
     <header>
-      <nav class="navbar navbar-expand-lg fixed-top bg-white">
+      <nav class="navbar navbar-expand-lg fixed-top bg-white flex-nowrap">
         <!--logo-->
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <div class="Logo">
-              <img src="./img/logo.svg" alt="logo" class="logo-img" />
+              <img src="./img/logo.svg" alt="logo" class="logo-img d-none d-lg-block" />
+              <img src="./img/mobile-logo.png" alt="mobile-logo" class="mobile-logo d-block d-lg-none d-xl-none d-xxl-none">
             </div>
           </a>
           <!--input text-->
@@ -73,34 +74,33 @@
     <div class="container-fluid my-pt5">
       <div class="row calc-min-height100">
         <!--sidebar-->
-        <div class="col-2 my-sidebar d-flex flex-column">
+        <div class="d-flex flex-column my-sidebar d-flex flex-column p-0 w-auto">
           <div
             class="my-home d-flex text-white py-4 justify-content-start align-items-center"
           >
             <i class="fa-solid fa-house px-3 my-f-size1-3f"></i>
-            <span class="my-f-size1-1f">Home</span>
+            <span class="my-f-size1-1f  d-none d-md-block d-lg-block d-xl-block d-xxl-block my-pr3">Home</span>
           </div>
           <div
             class="my-stats d-flex text-white pb-4 justify-content-start align-items-center"
           >
             <i class="fa-solid fa-chart-simple px-3 my-f-size1-3f"></i>
-            <span class="my-f-size1-1f">Stats</span>
+            <span class="my-f-size1-1f  d-none d-md-block d-lg-block d-xl-block d-xxl-block my-pr3">Stats</span>
           </div>
           <div
             class="my-signals d-flex text-white justify-content-start align-items-center"
           >
             <i class="fa-solid fa-signal px-3 my-f-size1-3f"></i>
-            <span class="my-f-size1-1f">Signals</span>
+            <span class="my-f-size1-1f d-none d-md-block d-lg-block d-xl-block d-xxl-block my-pr3">Signals</span>
           </div>
           <div
             class="my-settings d-flex text-white justify-content-start align-items-center "
           >
             <i class="fa-solid fa-gear px-3 my-f-size1-3f"></i>
-            <span class="my-f-size1-1f">Admin</span>
+            <span class="my-f-size1-1f  d-none d-md-block d-lg-block d-xl-block d-xxl-block my-pr3">Admin</span>
           </div>
         </div>
-        <!--biggercol-->
-        <div class="col-10"></div>
+
       </div>
     </div>
   </body>

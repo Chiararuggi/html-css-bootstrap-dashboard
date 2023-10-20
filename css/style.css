@@ -20,6 +20,10 @@
     padding-top: 5rem;
 }
 
+.my-pr3{
+    padding-right: 3rem;
+}
+
 /* font size */
 
 .my-f-size1-1f{
@@ -44,6 +48,10 @@
 
 header > nav{
     height: var(--navbar-height);
+}
+
+.mobile-logo{
+    width: 30%;
 }
 
 /* sidebar */
