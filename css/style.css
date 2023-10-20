@@ -67,6 +67,7 @@ header > nav{
 .my-sidebar{
     background-color: #051e34;
     background-image: url(../img/sidebar-bg.png);
+    width:10rem;
 }
 
 
