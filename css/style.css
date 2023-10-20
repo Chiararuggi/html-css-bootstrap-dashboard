@@ -68,6 +68,18 @@ header > nav{
     background-color: #051e34;
     background-image: url(../img/sidebar-bg.png);
     width:10rem;
+    margin-top: 5rem;
 }
+
+/* mediaquery */
+@media (max-width: 992px){
+    .my-sidebar{
+        width:4rem;
+    }
+}
+
+
+    
+
 
 
