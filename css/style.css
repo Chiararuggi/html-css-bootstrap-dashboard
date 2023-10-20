@@ -1,3 +1,10 @@
+#my-app {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 /* color */
 
 .my-c-darkgrey{
@@ -14,10 +21,18 @@
     background-color: #e5e5e5;
 }
 
+.my-bg-blue{
+    background-color: #165bba;
+}
+
 /* padding */
 
 .my-pt5{
     padding-top: 5rem;
+}
+
+.my-pr1{
+    padding-right: 1rem;
 }
 
 .my-pr3{
@@ -32,6 +47,10 @@
     padding-bottom: 1rem;
 }
 
+.my-pb2{
+    padding-bottom: 2rem;
+}
+
 /* font size */
 
 .my-f-size1-1f{
@@ -40,6 +59,10 @@
 
 .my-f-size1-3f{
     font-size: 1.3rem;
+}
+
+.my-f-size11{
+    font-size: 11px;
 }
 
 /* min height */
@@ -71,12 +94,29 @@ header > nav{
     margin-top: 5rem;
 }
 
+/* main */
+
+main {
+    width: calc(100% - 10rem);
+    height:calc(100vh - var(--navbar-height) )
+}
+
+.my-main-container{
+    background-color: #1b72e8;
+    color:white;
+}
+
 /* mediaquery */
 @media (max-width: 992px){
     .my-sidebar{
         width:4rem;
     }
+
+    main{
+        width: calc(100% - 4rem);
+    }
 }
+
 
 
     
