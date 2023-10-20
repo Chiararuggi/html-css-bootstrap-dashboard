@@ -24,6 +24,14 @@
     padding-right: 3rem;
 }
 
+.my-pl1{
+    padding-left: 1rem;
+}
+
+.my-pb1{
+    padding-bottom: 1rem;
+}
+
 /* font size */
 
 .my-f-size1-1f{
@@ -51,7 +59,7 @@ header > nav{
 }
 
 .mobile-logo{
-    width: 30%;
+    width: 5rem;
 }
 
 /* sidebar */
