@@ -136,6 +136,7 @@
           <div class="row">
             <!--bigger col-->
             <div class="col-12 col-md-6">
+              <!--first section-->
               <div class="d-flex align-items-center py-2">
                 <h3 class="my-pr1">Boolean</h3>
                 <span class="badge rounded-pill my-bg-blue">Piano blaze</span>
@@ -144,22 +145,28 @@
                 <span class="badge rounded-pill my-bg-blue">3 app</span>
                 <i class="fa-solid fa-chevron-right my-f-size11 my-pl1"></i>
                 <i class="fa-solid fa-chevron-right my-f-size11 my-pr1"></i>
-                <div class="my-bagde d-flex align-items-center px-1 d-xl-none d-xxl-none">
-                  <span class="badge rounded-pill my-bg-blue"
-                    >+</span
-                  >
-                  </div>
-                <div class="my-bagde d-flex align-items-center px-1 d-none d-xl-block d-xxl-block">
+                <div
+                  class="my-bagde d-flex align-items-center px-1 d-xl-none d-xxl-none"
+                >
+                  <span class="badge rounded-pill my-bg-blue">+</span>
+                </div>
+                <div
+                  class="my-bagde d-flex align-items-center px-1 d-none d-xl-block d-xxl-block"
+                >
                   <span class="badge rounded-pill my-bg-blue"
                     >Boolean mobile app</span
                   >
                 </div>
-                <div class="my-bagde d-flex align-items-center px-1 d-none d-xl-block d-xxl-block">
+                <div
+                  class="my-bagde d-flex align-items-center px-1 d-none d-xl-block d-xxl-block"
+                >
                   <span class="badge rounded-pill my-bg-blue"
                     >Boolean web app</span
                   >
                 </div>
-                <div class="my-bagde d-flex align-items-center px-1 d-none d-xl-block d-none d-xl-block d-xxl-block">
+                <div
+                  class="my-bagde d-flex align-items-center px-1 d-none d-xl-block d-none d-xl-block d-xxl-block"
+                >
                   <span class="badge rounded-pill my-bg-blue"
                     >Boolean blog app</span
                   >
@@ -167,14 +174,17 @@
               </div>
             </div>
             <div class="col-12 col-md-4">
+              <!--second section-->
               <div class="d-flex flex-column justify-content-center py-2">
                 <h6>Studenti online negli ultimi 30 giorni</h6>
                 <h1>125</h1>
               </div>
             </div>
             <div class="col-12 col-md-2">
+              <!--third section-->
               <div class="d-flex align-items-center py-3">
                 <span class="px-2">Nuovo Studente</span>
+                <!--button offcanvas-->
                 <button
                   class="btn btn-outline-light"
                   type="button"
@@ -184,7 +194,7 @@
                 >
                   <i class="fas fa-plus"></i>
                 </button>
-
+                <!--offcanvas-->
                 <div
                   class="offcanvas offcanvas-end"
                   data-bs-backdrop="static"
@@ -193,8 +203,11 @@
                   aria-labelledby="staticBackdropLabel"
                 >
                   <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="staticBackdropLabel">
-                      Offcanvas
+                    <h5
+                      class="offcanvas-title text-dark"
+                      id="staticBackdropLabel"
+                    >
+                      Inserisci un nuovo studente
                     </h5>
                     <button
                       type="button"
@@ -203,9 +216,136 @@
                       aria-label="Close"
                     ></button>
                   </div>
-                  <div class="offcanvas-body">
+                  <!--offcanvas body-->
+                  <div class="offcanvas-body text-dark">
+                    <!--name and surname-->
                     <div class="row">
-                      <div class="col-12"></div>
+                      <div class="col-12 col-md-6">
+                        <label for="NameFormControlInput" class="form-label"
+                          >Nome</label
+                        >
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="NameFormControlInput1"
+                        />
+                      </div>
+                      <div class="col-12 col-md-6">
+                        <label for="SurnameFormControlInput" class="form-label"
+                          >Cognome</label
+                        >
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="SurnameFormControlInput1"
+                        />
+                      </div>
+                    </div>
+                    <!--email and password-->
+                    <div class="row">
+                      <div class="col-12 col-md-6">
+                        <label for="EmailFormControlInput" class="form-label"
+                          >Email</label
+                        >
+                        <div class="input-group">
+                          <span class="input-group-text" id="basic-addon1"
+                            >@</span
+                          >
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Username"
+                            aria-label="Username"
+                            aria-describedby="basic-addon1"
+                          />
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-6">
+                        <label for="PasswordFormControlInput" class="form-label"
+                          >Password</label
+                        >
+                        <input
+                          type="password"
+                          class="form-control"
+                          id="PasswordFormControlInput1"
+                        />
+                      </div>
+                    </div>
+                    <!--Indirizzo-->
+                    <div class="row">
+                      <div class="col-12">
+                        <label for="AddressFormControlInput" class="form-label"
+                          >Indirizzo</label
+                        >
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="AddressFormControlInput1"
+                        />
+                      </div>
+                    </div>
+                    <!--City, State and CAP-->
+                    <div class="row">
+                      <div class="col-12 col-md-6">
+                        <label for="CityFormControlInput" class="form-label"
+                          >Città</label
+                        >
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="CityFormControlInput1"
+                        />
+                      </div>
+                      <div class="col-12 col-md-4">
+                        <label for="CityFormControlInput" class="form-label"
+                          >Stato</label
+                        >
+                        <select id="CityFormControlInput" class="form-select">
+                          <option selected>Scegli..</option>
+                          <option>...</option>
+                          <option>...</option>
+                        </select>
+                      </div>
+                      <div class="col-12 col-md-2">
+                        <label for="CAPFormControlInput" class="form-label"
+                          >CAP</label
+                        >
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="CAPFormControlInput1"
+                        />
+                      </div>
+                    </div>
+                    <!--Choose file-->
+                    <div class="row">
+                      <div class="col-12">
+                        <label for="formFileSm" class="form-label"
+                          >Nessun file selezionato</label
+                        >
+                        <input
+                          class="form-control form-control-sm"
+                          id="formFileSm"
+                          type="file"
+                        />
+                      </div>
+                    </div>
+                    <!--Checkbox-->
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="form-check py-3">
+                          <input class="form-check-input" type="checkbox" id="gridCheck">
+                          <label class="form-check-label" for="gridCheck">
+                            Seleziona per proseguire
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                    <!--Submit-->
+                    <div class="row"></div>
+                    <div class="col-12">
+                      <button type="submit" class="btn btn-primary">Salva</button>
+                      <button type="submit" class="btn btn-warning">Svuota</button>
                     </div>
                   </div>
                 </div>
