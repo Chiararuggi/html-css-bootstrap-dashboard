@@ -144,14 +144,25 @@
                 <span class="badge rounded-pill my-bg-blue">3 app</span>
                 <i class="fa-solid fa-chevron-right my-f-size11 my-pl1"></i>
                 <i class="fa-solid fa-chevron-right my-f-size11 my-pr1"></i>
-                <div class="my-bagde d-flex align-items-center px-1">
-                  <span class="badge rounded-pill my-bg-blue">Boolean mobile app</span>
+                <div class="my-bagde d-flex align-items-center px-1 d-xl-none d-xxl-none">
+                  <span class="badge rounded-pill my-bg-blue"
+                    >+</span
+                  >
+                  </div>
+                <div class="my-bagde d-flex align-items-center px-1 d-none d-xl-block d-xxl-block">
+                  <span class="badge rounded-pill my-bg-blue"
+                    >Boolean mobile app</span
+                  >
                 </div>
-                <div class="my-bagde d-flex align-items-center px-1">
-                  <span class="badge rounded-pill my-bg-blue">Boolean web app</span>
+                <div class="my-bagde d-flex align-items-center px-1 d-none d-xl-block d-xxl-block">
+                  <span class="badge rounded-pill my-bg-blue"
+                    >Boolean web app</span
+                  >
                 </div>
-                <div class="my-bagde d-flex align-items-center px-1">
-                  <span class="badge rounded-pill my-bg-blue">Boolean blog app</span>
+                <div class="my-bagde d-flex align-items-center px-1 d-none d-xl-block d-none d-xl-block d-xxl-block">
+                  <span class="badge rounded-pill my-bg-blue"
+                    >Boolean blog app</span
+                  >
                 </div>
               </div>
             </div>
@@ -161,17 +172,45 @@
                 <h1>125</h1>
               </div>
             </div>
-            <div class="col-12 col-md-2"><button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Enable both scrolling & backdrop</button>
+            <div class="col-12 col-md-2">
+              <div class="d-flex align-items-center py-3">
+                <span class="px-2">Nuovo Studente</span>
+                <button
+                  class="btn btn-outline-light"
+                  type="button"
+                  data-bs-toggle="offcanvas"
+                  data-bs-target="#staticBackdrop"
+                  aria-controls="staticBackdrop"
+                >
+                  <i class="fas fa-plus"></i>
+                </button>
 
-              <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
-                <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdrop with scrolling</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                <div
+                  class="offcanvas offcanvas-end"
+                  data-bs-backdrop="static"
+                  tabindex="-1"
+                  id="staticBackdrop"
+                  aria-labelledby="staticBackdropLabel"
+                >
+                  <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="staticBackdropLabel">
+                      Offcanvas
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="offcanvas"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <div class="row">
+                      <div class="col-12"></div>
+                    </div>
+                  </div>
                 </div>
-                <div class="offcanvas-body">
-                  <p>Try scrolling the rest of the page to see this option in action.</p>
-                </div>
-              </div></div>
+              </div>
+            </div>
           </div>
         </div>
       </main>
