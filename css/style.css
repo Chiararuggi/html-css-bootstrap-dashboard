@@ -98,12 +98,19 @@ header > nav{
 
 main {
     width: calc(100% - 10rem);
-    height:calc(100vh - var(--navbar-height) )
+    height:calc(100vh - var(--navbar-height) );
+    overflow-y: auto;
 }
 
 .my-main-container{
     background-color: #1b72e8;
     color:white;
+}
+
+/* card */
+
+.my-card-container{
+    padding-top: 2rem;
 }
 
 /* offcanvas */
